@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<odoo>
+    <act_window id="action_prueba_listar"
+                name="Prueba"
+                res_model="prueba"
+                view_type="form"
+                view_mode="tree,form"
+                target="current"
+                domain="[]"
+                context="{}"
+                limit="50"
+    />
+
+    <menuitem id="prueba_menu_principal"
+              name="Prueba principal"
+              sequence="75"
+    /><!--consejo_direccion,-->
+
+    <menuitem id="prueba_menu_configuracion"
+              name="Configuración"
+              parent="prueba_menu_principal"
+              sequence="90"
+    />
+
+    <menuitem id="prueba_menu_listar"
+              name="Listar"
+              action="action_prueba_listar"
+              parent="prueba_menu_configuracion"
+              sequence="3"
+    /><!--consejo_direccion,-->
+</odoo>
