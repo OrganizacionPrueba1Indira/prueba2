@@ -28,4 +28,10 @@
               parent="prueba_menu_configuracion"
               sequence="3"
     /><!--consejo_direccion,-->
+
+    <menuitem id="prueba2_nuevo_menu"
+              name="Nuevo menu"
+              parent="prueba_menu_configuracion"
+              sequence="90"
+    />
 </odoo>
