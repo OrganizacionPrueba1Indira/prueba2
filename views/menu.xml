@@ -34,4 +34,9 @@
               parent="prueba_menu_configuracion"
               sequence="90"
     />
+    <menuitem id="prueba2_segundo_menu"
+              name="Segundo menu"
+              parent="prueba_menu_configuracion"
+              sequence="45"
+    />
 </odoo>
