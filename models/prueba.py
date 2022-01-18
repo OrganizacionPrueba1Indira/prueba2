@@ -11,4 +11,5 @@ class prueba(models.Model):
 
     name=fields.Char('CI')
     permitido=fields.Boolean('Cuentas Permitidas')
+    otro=fields.Char('Otro campo')
 
