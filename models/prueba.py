@@ -13,4 +13,4 @@ class prueba(models.Model):
     permitido=fields.Boolean('Cuentas Permitidas')
     otro=fields.Char('Otro campo')
     edad=fields.Char('Edad')
-
+    altura = fields.Char('Altura')
