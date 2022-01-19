@@ -10,7 +10,7 @@ class prueba(models.Model):
     _order = "name"
 
     name=fields.Char('CI')
-    permitido=fields.Boolean('Cuentas Permitidas de gmail')
+    permitido=fields.Boolean('Cuentas Permitidas de gmail de nuevo')
     otro=fields.Char('Otro campo')
     edad=fields.Char('Edad')
     altura = fields.Char('Altura')
