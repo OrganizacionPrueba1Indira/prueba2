@@ -14,3 +14,4 @@ class prueba(models.Model):
     otro=fields.Char('Otro campo')
     edad=fields.Char('Edad')
     altura = fields.Char('Altura')
+	dsdsdsd
